@@ -6,6 +6,7 @@
  *   version 2.7.1
  *
 */
+
 h1,
 h2,
 h3,
@@ -169,8 +170,8 @@ h5 {
 }
 .nav-header {
   padding: 33px 25px;
-  background-color: #FF6633;
-  background-image: url("patterns/header-profile.png");
+  background-color: #000000;
+  background-image: url("http://sohanews.sohacdn.com/k:zoom/200_150/2015/thien-tai-leonardo-da-vinci-va-nhung-bi-mat-khong-phai-ai-cung-biet-1430842624385/doi-thu-duy-nhat-xung-tam-thien-tai-leonardo-da-vinci-la-ai.jpg");
 }
 .pace-done .nav-header {
   transition: all 0.4s;

@@ -1,0 +1,79 @@
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>My Profile Settings</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="dv.php?page=homePage">Home</a>
+                    </li>
+                    <li>
+                        <strong><a>Settings</a></strong>
+                    </li>
+                    
+                </ol>
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Let's get to know each other. <small>A few simple questions from a complex man.</small></h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form method="post" class="form-horizontal" action="dv.php?page=myProfileSettings&action=submit">
+                                <div><h2>Credentials</h2></div>
+                                <div class="form-group"><label class="col-sm-2 control-label">Studio Username</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="you@something.com" name="studio_username" value="{{studio_username}}"><span class="help-block m-b-none">Your studio username.</span></div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-2 control-label">Studio Password</label>
+                                    <div class="col-sm-10"><input type="password" class="form-control" placeholder="You want some cool stuff?" name="studio_password" value={{studio_password}}><span class="help-block m-b-none">Shhh.  I won't tell anyone.</span>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                
+                                <div><h2>Marketing Settings</h2></div>
+                                <div class="form-group"><label class="col-sm-2 control-label">From Email</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="you@something.com" name="from_email" value="{{from_email}}"><span class="help-block m-b-none">The email you're sending from (and to which people will reply).</span></div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-2 control-label">From Email Name</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="Bill Gates" name="from_name" value="{{from_name}}"><span class="help-block m-b-none">What do they call you?</span>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>            
+                                <div class="form-group">                                
+                                
+                                
+                                
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <input type="hidden" name="action" value="saveProfileSettings">
+                                        <button class="btn btn-primary" type="submit">Save</button>
+                                        <button class="btn btn-white" type="submit">Cancel</button>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>        
