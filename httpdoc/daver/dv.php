@@ -14,6 +14,8 @@ if ($page) {
 }
 
 function showPage($page) {
-    $html = file_get_contents($page.'.html');
+    $wrapper    = file_get_contents('wrapper.html');
+    $body       = file_get_contents($page.'.html');
+    $html       = str_replace("{{content}}",$body,$wrapper);
     return $html;
 }
