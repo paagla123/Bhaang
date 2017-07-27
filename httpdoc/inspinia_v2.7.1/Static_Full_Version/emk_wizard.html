@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Wizards</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/plugins/steps/jquery.steps.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	.wizard > .steps > ul > li {width: 16.66%;}
+</style>
+<body class="">
+
+    <div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">            
+			<!-- left wrapper -->
+                <li>
+                    <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">Contact</span><span class="fa arrow"></span></a>
+					 <ul class="nav nav-second-level collapse">
+                        <li><a href="uploadContact.html">Upload Contact</a></li>						
+                        <li><a href="viewContact.html">View Contact</a></li>
+                    </ul>
+                </li>
+				 <li>
+                    <a href="#"><i class="fa fa-pie-chart"></i> <span class="nav-label">Goal</span><span class="fa arrow"></span></a>
+		            <ul class="nav nav-second-level collapse">
+						<li>							
+							<a href="leadAcquisition.html" >Lead Acquisition<span class="fa arrow"></span></a>
+<!-- 
+									<ul class="nav nav-third-level">
+										<li>
+											<a href="emk_program_list.html">Email Marketing</a>
+										</li>
+										<li>
+											<a href="#">Text to Join</a>
+										</li>
+										<li>
+											<a href="#">Join a Mailing List</a>
+										</li>
+										<li>
+											<a href="#">Setup FB</a>
+										</li>
+									</ul>
+ -->
+                        </li>
+						<li>							
+							<a href="loyaltyProgram.html">Loyalty Program<span class="fa arrow"></span></a>
+								<!-- 
+								<ul class="nav nav-third-level">
+									<li>
+										<a href="#">Birthday Anniversary</a>
+									</li>
+									<li>
+										<a href="#">eNewsletter</a>
+									</li>
+								</ul>
+ -->
+                        </li>
+                    </ul>                   
+                </li>
+				 <li>
+                    <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">Setting</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="users.html">Users</a></li>
+                    </ul>
+                </li>
+				<!-- <li>
+                    <a href="emk_program_list.html"><i class="fa fa-sitemap"></i> <span class="nav-label">Email Marketing</span></a>
+                </li> -->
+                <!-- <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label">Email Marketing</span><span class="fa arrow"></span></a>
+					<ul class="nav nav-second-level collapse">
+                        <li>
+                            <a href="#">Third Level <span class="fa arrow"></span></a>
+								<ul class="nav nav-third-level">
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+
+								</ul>
+                        </li>
+                        <li><a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                    </ul>
+                </li>  -->
+				
+				<!-- <li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Text to join</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">eNewletters</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Join a Mailing list</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Set up a Facebook</span></a>
+                </li> -->
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Log out</span></a>
+                </li>
+
+
+			<!-- /end left wrapper -->
+            </ul>
+        </div>
+    </nav>
+
+        <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+				 <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+						<div class="navbar-header">
+							<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+						</div>
+				</nav>
+        </div>
+		
+<!-- content -->
+			<div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>Email Marketing</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            Goal
+                        </li>
+                        <li>
+                            <a href="leadAcquisition.html" >Lead Acquisition</a>
+                        </li>
+						<li>
+                            <a href="emk_program_list.html" >Program List</a>
+                        </li>
+                        <li class="active">
+                            <strong>Email Marketing</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <p>
+                            This is Email Marketing Step
+                        </p>
+                        <div id="wizard">
+                            <h1>Initial Email</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                <p>
+                                    <form method="get" class="form-horizontal">
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> Email From Address : </label>
+
+											<div class="col-sm-9">
+												<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress">To Address : </label>
+
+											<div class="col-sm-9">
+												<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="EmailFromName"> Email From Name : </label>
+
+											<div class="col-sm-9">
+												<input type="text" id='EmailFromName' placeholder="Email From Name" class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="ReplyToEmailAddress"> Reply To Email Address : </label>
+
+											<div class="col-sm-9">
+												<input type="text" id='ReplyToEmailAddress' placeholder="Reply To Email Address" class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> Email Subject : </label>
+
+											<div class="col-sm-9">
+												<input type="text" id='EmailSubject' placeholder="Email Subject" class="col-xs-10 col-sm-5" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="HTMLContent"> HTML Content : </label>
+
+											<div class="col-sm-9">
+												<textarea name="content" data-provide="markdown" rows="10">
+													h1 header
+													============
+
+													Paragraphs are separated by a blank line.
+
+													2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+													look like:
+
+													  * this one
+													  * that one
+													  * the other one
+												</textarea>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label no-padding-right" for="TextOnlyContent"> Text Only Content : </label>
+
+											<div class="col-sm-9">
+												<textarea class="autosize-transition form-control" id="TextOnlyContent" placeholder="Text Only Content" rows="7" style="border:1px solid black;"></textarea>
+											</div>
+										</div>
+									</form>
+                                </p>
+                                </div>
+                            </div>
+
+                            <h1>Landing Page</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                    <p>
+                                        <form method="get" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> DEALERSHIP NAME : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="DEALERSHIP NAME" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress">DEALERSHIP ADDR1 : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="DEALERSHIP ADDR1" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromName"> DEALERSHIP CITY : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromName' placeholder="DEALERSHIP CITY" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="ReplyToEmailAddress"> DEALERSHIP STATE : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='ReplyToEmailAddress' placeholder="DEALERSHIP STATE" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> DEALERSHIP ZIP : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailSubject' placeholder="DEALERSHIP ZIP" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> DEALERSHIP PHONE : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailSubject' placeholder="DEALERSHIP PHONE" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+										</form>
+                                    </p>
+                                </div>
+                            </div>
+
+							<h1>Thank you Email</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                    <p>
+                                        <form method="get" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> Email From Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress">To Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromName"> Email From Name : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromName' placeholder="Email From Name" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="ReplyToEmailAddress"> Reply To Email Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='ReplyToEmailAddress' placeholder="Reply To Email Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> Email Subject : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailSubject' placeholder="Email Subject" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="HTMLContent"> HTML Content : </label>
+
+												<div class="col-sm-9">
+													<textarea name="content" data-provide="markdown" rows="10">
+														h1 header
+														============
+
+														Paragraphs are separated by a blank line.
+
+														2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+														look like:
+
+														  * this one
+														  * that one
+														  * the other one
+													</textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="TextOnlyContent"> Text Only Content : </label>
+
+												<div class="col-sm-9">
+													<textarea class="autosize-transition form-control" id="TextOnlyContent" placeholder="Text Only Content" rows="7" style="border:1px solid black;"></textarea>
+												</div>
+											</div>
+										</form>
+                                    </p>
+                                </div>
+                            </div>
+
+							<h1>Lead Email</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                    <p>
+                                        <form method="get" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> Email From Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress">To Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromName"> Email From Name : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromName' placeholder="Email From Name" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="ReplyToEmailAddress"> Reply To Email Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='ReplyToEmailAddress' placeholder="Reply To Email Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> Email Subject : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailSubject' placeholder="Email Subject" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="HTMLContent"> HTML Content : </label>
+
+												<div class="col-sm-9">
+													<textarea name="content" data-provide="markdown" rows="10">
+														h1 header
+														============
+
+														Paragraphs are separated by a blank line.
+
+														2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+														look like:
+
+														  * this one
+														  * that one
+														  * the other one
+													</textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="TextOnlyContent"> Text Only Content : </label>
+
+												<div class="col-sm-9">
+													<textarea class="autosize-transition form-control" id="TextOnlyContent" placeholder="Text Only Content" rows="7" style="border:1px solid black;"></textarea>
+												</div>
+											</div>
+										</form>
+                                    </p>
+                                </div>
+                            </div>
+
+							<h1>BDayAnnivEmail</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                    <p>
+                                        <form method="get" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> Email From Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress">To Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Email From Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromName"> Email From Name : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromName' placeholder="Email From Name" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="ReplyToEmailAddress"> Reply To Email Address : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='ReplyToEmailAddress' placeholder="Reply To Email Address" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailSubject"> Email Subject : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailSubject' placeholder="Email Subject" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="HTMLContent"> HTML Content : </label>
+
+												<div class="col-sm-9">
+													<textarea name="content" data-provide="markdown" rows="10">
+														h1 header
+														============
+
+														Paragraphs are separated by a blank line.
+
+														2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+														look like:
+
+														  * this one
+														  * that one
+														  * the other one
+													</textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="TextOnlyContent"> Text Only Content : </label>
+
+												<div class="col-sm-9">
+													<textarea class="autosize-transition form-control" id="TextOnlyContent" placeholder="Text Only Content" rows="7" style="border:1px solid black;"></textarea>
+												</div>
+											</div>
+										</form>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h1>BDayAnnivSMS</h1>
+                            <div class="step-content">
+                                <div class="text-center m-t-md">
+                                    <p>
+                                        <form method="get" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="EmailFromAddress"> Mobile : </label>
+
+												<div class="col-sm-9">
+													<input type="text" id='EmailFromAddress' placeholder="Mobile" class="col-xs-10 col-sm-5" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="TextOnlyContent"> Message : </label>
+
+												<div class="col-sm-9">
+													<textarea class="autosize-transition form-control" id="TextOnlyContent" placeholder="Message" rows="7" style="border:1px solid black;"></textarea>
+												</div>
+											</div>
+										</form>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+			</div>
+
+<!--/ content -->           
+            <div class="footer">
+                <div class="pull-right">
+                    10GB of <strong>250GB</strong> Free.
+                </div>
+                <div>
+                    <strong>Copyright</strong> Example Company &copy; 2014-2017
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- Steps -->
+    <script src="js/plugins/steps/jquery.steps.min.js"></script>
+
+    <!-- Jquery Validate -->
+    <script src="js/plugins/validate/jquery.validate.min.js"></script>
+
+	<!-- Bootstrap markdown -->
+    <script src="js/plugins/bootstrap-markdown/bootstrap-markdown.js"></script>
+    <script src="js/plugins/bootstrap-markdown/markdown.js"></script>
+	<script>
+        $(document).ready(function(){
+            $("#wizard").steps();
+            $("#form").steps({
+                bodyTag: "fieldset",
+                onStepChanging: function (event, currentIndex, newIndex)
+                {
+                    // Always allow going backward even if the current step contains invalid fields!
+                    if (currentIndex > newIndex)
+                    {
+                        return true;
+                    }
+
+                    // Forbid suppressing "Warning" step if the user is to young
+                    if (newIndex === 3 && Number($("#age").val()) < 18)
+                    {
+                        return false;
+                    }
+
+                    var form = $(this);
+
+                    // Clean up if user went backward before
+                    if (currentIndex < newIndex)
+                    {
+                        // To remove error styles
+                        $(".body:eq(" + newIndex + ") label.error", form).remove();
+                        $(".body:eq(" + newIndex + ") .error", form).removeClass("error");
+                    }
+
+                    // Disable validation on fields that are disabled or hidden.
+                    form.validate().settings.ignore = ":disabled,:hidden";
+
+                    // Start validation; Prevent going forward if false
+                    return form.valid();
+                },
+                onStepChanged: function (event, currentIndex, priorIndex)
+                {
+                    // Suppress (skip) "Warning" step if the user is old enough.
+                    if (currentIndex === 2 && Number($("#age").val()) >= 18)
+                    {
+                        $(this).steps("next");
+                    }
+
+                    // Suppress (skip) "Warning" step if the user is old enough and wants to the previous step.
+                    if (currentIndex === 2 && priorIndex === 3)
+                    {
+                        $(this).steps("previous");
+                    }
+                },
+                onFinishing: function (event, currentIndex)
+                {
+                    var form = $(this);
+
+                    // Disable validation on fields that are disabled.
+                    // At this point it's recommended to do an overall check (mean ignoring only disabled fields)
+                    form.validate().settings.ignore = ":disabled";
+
+                    // Start validation; Prevent form submission if false
+                    return form.valid();
+                },
+                onFinished: function (event, currentIndex)
+                {
+                    var form = $(this);
+
+                    // Submit form input
+                    form.submit();
+                }
+            }).validate({
+                        errorPlacement: function (error, element)
+                        {
+                            element.before(error);
+                        },
+                        rules: {
+                            confirm: {
+                                equalTo: "#password"
+                            }
+                        }
+                    });
+       });
+    </script>
+
+</body>
+
+</html>

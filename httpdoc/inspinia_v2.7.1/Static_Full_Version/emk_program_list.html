@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhaang</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- FooTable -->
+    <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+    <div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">            
+			<!-- left wrapper -->
+                <li>
+                    <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">Contact</span><span class="fa arrow"></span></a>
+					 <ul class="nav nav-second-level collapse">
+                        <li><a href="uploadContact.html">Upload Contact</a></li>						
+                        <li><a href="viewContact.html">View Contact</a></li>
+                    </ul>
+                </li>
+				 <li>
+                    <a href="#"><i class="fa fa-pie-chart"></i> <span class="nav-label">Goal</span><span class="fa arrow"></span></a>
+		            <ul class="nav nav-second-level collapse">
+						<li>							
+							<a href="leadAcquisition.html" >Lead Acquisition<span class="fa arrow"></span></a>
+<!-- 
+									<ul class="nav nav-third-level">
+										<li>
+											<a href="emk_program_list.html">Email Marketing</a>
+										</li>
+										<li>
+											<a href="#">Text to Join</a>
+										</li>
+										<li>
+											<a href="#">Join a Mailing List</a>
+										</li>
+										<li>
+											<a href="#">Setup FB</a>
+										</li>
+									</ul>
+ -->
+                        </li>
+						<li>							
+							<a href="loyaltyProgram.html">Loyalty Program<span class="fa arrow"></span></a>
+								<!-- 
+								<ul class="nav nav-third-level">
+									<li>
+										<a href="#">Birthday Anniversary</a>
+									</li>
+									<li>
+										<a href="#">eNewsletter</a>
+									</li>
+								</ul>
+ -->
+                        </li>
+                    </ul>                   
+                </li>
+				 <li>
+                    <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">Setting</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="users.html">Users</a></li>
+                    </ul>
+                </li>
+				<!-- <li>
+                    <a href="emk_program_list.html"><i class="fa fa-sitemap"></i> <span class="nav-label">Email Marketing</span></a>
+                </li> -->
+                <!-- <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label">Email Marketing</span><span class="fa arrow"></span></a>
+					<ul class="nav nav-second-level collapse">
+                        <li>
+                            <a href="#">Third Level <span class="fa arrow"></span></a>
+								<ul class="nav nav-third-level">
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+									<li>
+										<a href="#">Third Level Item</a>
+									</li>
+
+								</ul>
+                        </li>
+                        <li><a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                    </ul>
+                </li>  -->
+				
+				<!-- <li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Text to join</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">eNewletters</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Join a Mailing list</span></a>
+                </li>
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Set up a Facebook</span></a>
+                </li> -->
+				<li>
+                    <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Log out</span></a>
+                </li>
+
+
+			<!-- /end left wrapper -->
+            </ul>
+        </div>
+    </nav>
+
+        <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+				 <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+						<div class="navbar-header">
+							<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+						</div>
+				</nav>
+        </div>
+		
+<!-- content -->
+
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>Program list</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            Goal
+                        </li>
+                        <li>
+                            <a href="leadAcquisition.html" >Lead Acquisition</a>
+                        </li>
+                        <li class="active">
+                            <strong>Program list</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        
+                        <div class="ibox-content">
+							<input type="text" class="form-control input-sm m-b-xs" id="filter"
+                                   placeholder="Search in table">
+
+                            <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                                <thead>
+                                <tr>
+                                    <th>Program Name</th>
+                                    <th>Owner</th>
+                                    <th>Create Date</th>
+                                    <th>Publish Date</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="gradeX">
+                                    <td>Bhaang Demo 2</td>
+                                    <td>John</td>
+                                    <td>7/25/2017</td>
+                                    <td><a href="emk_wizard.html">edit</a></td>
+                                </tr>
+								<tr class="gradeX">
+                                    <td>Bhaang Demo 1</td>
+                                    <td>John</td>
+                                    <td>7/25/2017</td>
+                                    <td>7/25/2017</td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="4">
+										<a href="emk_wizard.html" ><button type="button" class="btn btn-primary">New Program</button></a>
+                                        <ul class="pagination pull-right"></ul>
+                                    </td>
+                                </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--/ content -->           
+            <div class="footer">
+                <div class="pull-right">
+                    10GB of <strong>250GB</strong> Free.
+                </div>
+                <div>
+                    <strong>Copyright</strong> Example Company &copy; 2014-2017
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- FooTable -->
+    <script src="js/plugins/footable/footable.all.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- Page-Level Scripts -->
+    <script>
+        $(document).ready(function() {
+
+            $('.footable').footable();
+            $('.footable2').footable();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
