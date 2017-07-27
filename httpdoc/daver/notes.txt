@@ -1,0 +1,47 @@
+// Dave's Notes.  Largely ignore these.
+
+Got BitBucket: 2Grz59RrptQDsjdZZZSh (for Da Vinci)
+
+// dv.php
+- dv.php?page=<pageName> … like page=homePage, pickAnObjective, etc., does a case (page) type thing
+- If no page param is passed, load homePage.html.
+
+// myLists.html
+- For right now, name of List and XML portion defining the TA.  Shows a count.
+- These lists appear anywhere we have a TO (like "Printer Prospects [1,523 Contacts]")
+
+// homePage.html
+- Jumbotron-style with big button that says "Create a Campaign"; goes to pickAnObjective.html
+- Below, a ordered list of published Campaigns with EDIT button or link
+
+
+// pickAnObjective.html
+- List of Objectives as Cards for now
+- "Promote a Blog Post" is the only working one for now; mimics what we do @ MF
+- When Users hits "GO", they see nameYourCampaign.html 
+
+// nameYourCampaign.html
+- See a page that says "What do you want to call your campaign?"
+- When User hits submit, we get the MAML template from S3 and Publish to Studio
+- Then we Enable Editing, find the snippets in each of the Content Vars, and replace them with their new unique names. 
+- For now, snippets are like:
+email1-subject.html
+email1-to.html
+email1-body.html
+- Once replaced, snippets can be like:
+1444-13-email1-subject (accountID - programID - campaignID - ElementID-email1-subject.html
+
+// editEmail.html
+- At top of page, is <h1> Program Name
+- Beneath that, 4 fields:
+* SUBJECT:  email1-subject.html
+* TO:       [Target Audience Pull Down]
+* BODY:     email1-body.html
+* SCHEDULE: Date picker
+* Send Test Button
+* Save
+
+What Mac does: 
+- A/B Split on first email to find winning subject for opens
+- Non-opens, changed subject line
+- Clickers, change body (and subject?)

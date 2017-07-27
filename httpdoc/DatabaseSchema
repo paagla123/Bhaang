@@ -1,0 +1,98 @@
+# 
+# One database per login user 
+# For example user = "John" 
+# access path = /couchdb/jhon
+#
+Database = /couchdb/<User>
+
+
+/couchdb/<User>/UserInfo
+{
+    "user":"user",
+    "passsword":"password",
+    "FaceBookAccessToken":"Token",
+    "MicrosoftAccessToken":"Token",
+    "GoogleAccessToken":"Token",
+    "S3Token":"Token",
+    "LastAccessDate":"Date",
+}
+
+/couchdb/<User>/Asset
+{
+    "BACKGROUND IMAGE":"BACKGROUND IMAGE"
+    "EMAIL BANNER":"EMAIL BANNER"
+}
+
+/couchdb/<User>/EmarketingCampaignLists
+[
+    #Campaign,
+]
+
+#Campaign
+{   
+    "id":"CampaignGUID"
+    "accountID":"Studio account ID"
+    "Title":"Showing Title",
+    "CreateDate":"Create Date",
+    "LastEditDate":"List Edit Date",
+    "Status":"Edit/Publish/Deleted",
+},
+
+/couchdb/<User>/CampaignGUID as #EmarketingCampaign
+{
+    "GUID":"CampaignGUID",
+    "accountID":"Studio account ID",
+    "publishProgramName":"publish program name",
+    "publishDate":"publishDate",
+    "InitialEmail1": #Email
+    "FollowUpEmail1": #Email
+    "NonResponseEmail1": #Email
+    "MicroSite":#Microsite
+    //wait for MAML
+}
+
+#Email
+{
+    "Name":"Name"
+    "Subject":"Subject"
+    "FromName":"FromName"
+    "FromEmail":"FromEmail"
+    "ReplyTo":"ReplyTo"
+    "BodyHtml":"BodyHtml"
+    "BodyText":"BodyText"
+    "PreHeader":"PreHeader"
+    "UnsubscribeText":"UnsubscribeText"
+    "UnsubscribeLink":"UnsubscribeLink"
+    "SendToWho":"All Printers"
+    "Schedule":[
+        {
+            "Condition":"EveryOne/NonOpen/NonClick",
+            "SendDateTime":"SendDateTime",
+        },
+    ]
+}
+
+#Microsite
+{
+    "Domain","Domain",
+    "NAME","NAME",
+    "ADDR1","ADDR1",
+    "CITY","CITY",
+    "STATE","STATE",
+    "ZIP","ZIP",
+    "PHONE","PHONE",
+},
+
+
+
+--------------------------------------------------------
+
+/couchdb/<User>/NewsLetterCampaignLists
+[
+    #Campaign,
+]
+
+CampaignGUID as #NewsLetterCampaign
+{
+    //wait for MAML
+}

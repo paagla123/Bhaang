@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Main view</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
+    <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Mackenzi Farsheed</strong>
+                             </span> <span class="text-muted text-xs block">Demand Gen Manager<b class="caret"></b></span> </span> </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Launch a Campaign</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">My Campaigns</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">My Contacts & Lists</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">My Profile Settings</span></a>
+                </li>
+                <li>
+                    <a href="minor.html"><i class="fa fa-th-large"></i> <span class="nav-label">F**$!  Get Help!</span> </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    <form role="search" class="navbar-form-custom" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>Promote a Blog Post</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a>Launch a Campaign</a>
+                    </li>
+                    <li>
+                        <strong><a>Promote a Blog Post</a></strong>
+                    </li>
+                    
+                </ol>
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>All I Need Are A Few Details <small>... and we'll be ready to rock.</small></h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form method="get" class="form-horizontal">
+                                <div class="form-group"><label class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="My awesome first campaign"><span class="help-block m-b-none">Give yourself a campaign name to help you easily identify the campaigns you've sent from your Dashboard.</span></div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group"><label class="col-sm-2 control-label">Email Subject Line</label>
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="You want some cool stuff?"><span class="help-block m-b-none">This is what appears in your recipient's inbox. Make it snappy.</span>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="tab-content">
+                                <div id="tab-1" class="tab-pane active">
+                                    <div class="panel-body">
+                                </div>
+                                </div>
+                                </div>
+
+                                <div class="form-group"><label class="col-sm-2 control-label">Email Body</label>
+                                    <div class="col-sm-10">
+                                        <div class="summernote">
+                                            <!DOCTYPE html>
+                                            <html>
+                                            <head>
+                                            
+                                            	<style type="text/css">
+                                            	               body, #bodyTable { height:100% !important; width:100% !important; margin:0; padding:0; }
+                                            	               body, table, td, p, a, li, blockquote { -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }
+                                            	               .thread-item.expanded .thread-body .body, .msg-body { width: 100% !important; display: block !important; }
+                                            	               .ReadMsgBody, .ExternalClass { width: 100%; background-color: #f4f4f4; }
+                                            	               .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:100%; }
+                                            	               table { border-spacing:0; }
+                                            	               table, td { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+                                            	               img { -ms-interpolation-mode: bicubic; }
+                                            	               img, a img { border:0; outline:none; text-decoration:none; }
+                                            	               .yshortcuts a { border-bottom: none !important; }
+                                            	               a[href^=tel], .mobile_link, .mobile_link a { color:#222222 !important; text-decoration: underline !Important; }
+                                            	               @media screen and (max-device-width: 600px), screen and (max-width: 600px) { 
+                                            	               table[class="email-container"] { width: 100% !important; }
+                                            	               table[class="fluid"] { width: 100% !important; }
+                                            	               img[class="fluid img-responsive"], img[class="force-col-center"] { width: 100% !important; max-width: 100% !important; height: auto !important; }
+                                            	               img[class="force-col-center"] { margin: auto !important; }
+                                            	               td[class="force-col"], td[class="force-col-center"] { display: block !important; width: 100% !important; clear: both; }
+                                            	               td[class="force-col-center"] { text-align: center !important; }
+                                            	               img[class="col-3-img-l"] { float: left; margin: 0 15px 15px 0; }
+                                            	               img[class="col-3-img-r"] { float: right; margin: 0 0 15px 15px; }
+                                            	               table[class="button"] { width: 100% !important; }
+                                            	               }
+                                            	               @media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+                                            	               div[class="hh-visible"] { display: block !important; }
+                                            	               div[class="hh-center"] { text-align: center; width: 100% !important; }
+                                            	               table[class="hh-fluid"] { width: 100% !important; }
+                                            	               img[class="hh-fluid"], img[class="hh-force-col-center"] { width: 100% !important; max-width: 100% !important; height: auto !important; }
+                                            	               img[class="hh-force-col-center"] { margin: auto !important; }
+                                            	               td[class="hh-force-col"], td[class="hh-force-col-center"] { display: block !important; width: 100% !important; clear: both; }
+                                            	               td[class="hh-force-col-center"] { text-align: center !important; }
+                                            	               img[class="col-3-img-l"], img[class="col-3-img-r"] { float: none !important; margin: 15px auto !important; text-align: center !important; }
+                                            	               }
+                                            	</style>
+                                            	<title></title>
+                                            </head>
+                                            <body bgcolor="#F4F4F4" style="margin:0; padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+                                            	<table bgcolor="#F4F4F4" border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="border-collapse: collapse;table-layout: fixed;margin:0 auto;" width="100%">
+                                            		<tr>
+                                            			<td>
+                                            				<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;" width="90%">
+                                            					<tr>
+                                            						<td height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                                            					</tr>
+                                            					<tr>
+                                            						<td height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                                            					</tr>
+                                            				</table>
+                                            				<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="email-container" id="rzEmailBody" style="border: 1px solid #e5e5e5;margin: auto;" width="90%">
+                                            					<tr>
+                                            						<td>
+                                            							<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+                                            								<tr>
+                                            									<td style="padding-right: 30px;padding-left: 30px;padding-top: 0;padding-bottom: 0; font-family: sans-serif; font-size: 16px; line-height: 22px; color: #444444;">
+                                            										<div>
+                                            											<p>&nbsp;</p>
+                                            											<p style="text-align: left;"></p>
+                                            											<p>Hi ##firstname##,</p>
+                                            											<p>As a printer, you've likely heard the stereotype: Millennials are digital natives, glued to their smartphones, and the only way for marketers to reach them is through social media.</p>
+                                            											<p>But what if that's not true?</p>
+                                            											<p><strong>The truth is, USPS recently studied the behavior of Millennials and found that they respond to a low-tech marketing approach that’s been around for centuries: Paper in a mailbox.</strong></p>
+                                            											<center>
+                                            												<a href="http://mindfireinc.com/resources/ebooks/ahBzfm1pbmRmaXJlc3R1ZGlvchILEgVFYm9vaxiAgICgoLSHCgw?utm_source=Email&utm_medium=Email&utm_campaign=USPSMillennialDirectMail&utm_term=PrintersMoreThan50Emps&utm_content=TextLink"><img src="https://s3-us-west-1.amazonaws.com/marketingmfi/Still_Relevant-A_Look_At_How_Millennials_Respond_To_Direct_Mail_pdf.jpg" width="50%"></a>
+                                            											</center>
+                                            											<p></p>
+                                            											<p>This surprising research guide is designed to help you better understand how (and why) Millennials respond to mail, how mail compares with other marketing channels (the results will surprise you), and how to create an appealing mailpiece for this generation.</p>
+                                            											<center>
+                                            												<a href="http://mindfireinc.com/resources/ebooks/ahBzfm1pbmRmaXJlc3R1ZGlvchILEgVFYm9vaxiAgICgoLSHCgw?utm_source=Email&utm_medium=Email&utm_campaign=USPSMillennialDirectMail&utm_term=PrintersMoreThan50Emps&utm_content=TextLink">
+                                            												<h2>[DOWNLOAD NOW]</h2></a>
+                                            											</center>
+                                            											<p>Print the guide (<i>7 easy-to-read pages</i>), share it with your team (<i>they need to know these stats</i>), and use it in your next client meeting (<i>if they believe the stereotype, they're likely losing leads and sales: you can help them</i>). Enjoy!</p>
+                                            											<p>Dave Rosendahl<br>Co-Founder, MindFire<br>
+                                            											<br></p>
+                                            											<p></p>
+                                            											<p></p>
+                                            											<p></p>
+                                            											<p></p>
+                                            										</div>
+                                            									</td>
+                                            								</tr>
+                                            							</table>
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            				<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" width="100%">
+                                            					<tr>
+                                            						<td style="text-align: center;padding: 20px;font-family: sans-serif; font-size: 12px; line-height: 18px;color: #888888;">
+                                            							If you no longer wish to receive these emails, you can <a href="http://##purl##.mindfirestudio.net/subscription" style="color: #444444; padding: 0;text-decoration: underline">unsubscribe</a><br>
+                                            							MindFire HQ &bull; 2601 Main Street Suite 830, Irvine, CA &bull; <span class="mobile_link">877-560-3473</span><br>
+                                            							<br>
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </body>
+                                        </html>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-danger" type="submit">Send Test</button>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                
+                                <div class="form-group"><label class="col-sm-2 control-label">Send to Who?</label>
+
+                                    <div class="col-sm-10"><select class="form-control m-b" name="account">
+                                        <option>All Printers (Leads & Contacts) [16,374]</option>
+                                        <option>All Enterprise Accounts [4,123]</option>
+                                        <option>Mary and Joe's Opps [343]</option>
+                                        <option>MindFire Staff [38]</option>
+                                    </select>
+
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group"><label class="col-sm-2 control-label">Schedule</label>
+                                    <div class="col-sm-10">
+                                        <div class="table-responsive">
+                                            <table class="table table-stripped table-bordered">
+
+                                                <thead>
+                                                <tr>
+                                                    <th>
+                                                        Group
+                                                    </th>
+                                                    <th>
+                                                        Quantity
+                                                    </th>
+                                                    <th style="width: 20%">
+                                                        Send Date/Time
+                                                    </th>
+                                                    <th>
+                                                        Actions
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <select class="form-control" >
+                                                            <option selected>Everyone in my selected Lists(s)</option>
+                                                            <option>Non-Opens</option>
+                                                            <option>Non-Clickers</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" class="form-control" placeholder="16,374">
+                                                    </td>
+                                                    <td>
+                                                        <div class="input-group date">
+                                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="07/01/2014">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                            <button class="btn btn-white"><i class="fa fa-trash"></i> </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <select class="form-control" >
+                                                            <option>Everyone in my selected Lists(s)</option>
+                                                            <option selected>Non-Opens</option>
+                                                            <option>Non-Clickers</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" class="form-control" placeholder="TBD">
+                                                    </td>
+                                                    <td>
+                                                        <div class="input-group date">
+                                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="07/03/2014">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                            <button class="btn btn-white"><i class="fa fa-trash"></i> </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <select class="form-control" >
+                                                            <option></option>Everyone in my selected Lists(s)</option>
+                                                            <option>Non-Opens</option>
+                                                            <option selected>Non-Clickers</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" class="form-control" placeholder="TBD">
+                                                    </td>
+                                                    <td>
+                                                        <div class="input-group date">
+                                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="07/10/2014">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                            <button class="btn btn-white"><i class="fa fa-trash"></i> </button>
+                                                    </td>
+                                                </tr>
+                                                
+
+                                                </tbody>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="hr-line-dashed"></div>            
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary" type="submit">Save My Work</button>
+                                        <button class="btn btn-white" type="submit">Cancel</button>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>        
+            <div class="footer">
+            <div class="pull-right">
+                You're on the <strong>FREE</strong> Plan.
+            </div>
+            <div>
+                <strong>Copyright</strong> MindFire, Inc. &copy; 2017
+            </div>
+        </div>
+
+    </div>
+</div>
+
+!-- Mainly scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+<!-- SUMMERNOTE -->
+<script src="js/plugins/summernote/summernote.min.js"></script>
+
+<!-- Data picker -->
+<script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $('.summernote').summernote();
+
+        $('.input-group.date').datepicker({
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            calendarWeeks: true,
+            autoclose: true
+        });
+
+    });
+</script>
+
+</body>
+
+</html>
+

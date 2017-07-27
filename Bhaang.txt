@@ -1,0 +1,288 @@
+Bhaang 
+
+https://app.moqups.com/daver@mindfiremail.info/R0ZqCRWnPT/view
+
+
+http://mindfire.m.mdl.io/cms/
+
+
+https://studio.dashboard.mdl.io/api/Report/GetReport
+
+http://shakr.com 
+http://biteable.com
+
+-------------
+
+(Enable curl to use different port)
+setsebool httpd_can_network_connect on   
+
+SELinux prevents httpd from writing in certain directories
+
+
+-------------
+
+freedom3.mindfireis.com
+web2xmm.com
+IP Address: 104.131.142.136
+Username: root
+Password: Atrium123;
+
+atrium
+Atm3579#
+
+database
+104.131.142.136
+aketest   
+mk5ad1wq
+studioPortal
+
+https://www.screencast.com/t/uG96CtW9icv
+
+https://safebrowsing.google.com/safebrowsing/report_error/?tpl=mozilla&hl=en-US&url=http%3A%2F%2Fwww.web2xmm.com%2Finspinia_v2.7.1%2FStatic_Full_Version%2FleftMenu.html
+
+/usr/local/mysql/bin/mysql -u root -p
+freedom0323
+
+ getcomposer.org/web/installer 
+
+https://web2xmm.com
+
+D:\SyncFolder\GoogleDrive\PlainText\project\studio\Bhaang
+
+http://web2xmm.com/info.php
+http://web2xmm.com/authorise-application.php
+https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=http%3A%2F%2Fweb2xmm.com%2Fvendor%2Frapidwebltd%2Fphp-google-contacts-v3-api%2F&client_id=424915663814-eubtlstlcfoqoqj8d9ffaib3oc5jf13l.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&access_type=offline&approval_prompt=force
+
+http://web2xmm.com/info.php
+http://web2xmm.com/testGoogle.php
+http://web2xmm.com/admin/getGoogleContact.php
+http://web2xmm.com/admin/test003.html
+http://web2xmm.com/admin/getGoogleContact.php?access_token=ya29.GlyVBB_Asr4lAnGPeaukCVQZ3qDvrdCNk2XhX9vHBDYSDBLVATSh7zfmZXFO-_TqsN5XWtC9KM2MtAMB7wuvCNjeTovvmgGi5DfXb5VB3o0Wn86WfkRB6r1u5eTHTA&alt=json&callback=jQuery21305201096902427866_1501063666039&_=1501063666040
+http://web2xmm.com/test_individual.php?selfURL=
+
+
+php /var/www/html/admin/getGoogleContact.php
+php /var/www/html/admin/test001.php
+php /var/www/html/admin/test002.php
+
+php /var/www/html/admin/saveFile.php
+
+php /var/www/html/authorise-application.php
+php /var/www/html/testGoogle.php
+php /var/www/html/test_individual.php
+
+php /var/www/html/admin/test002.php
+
+composer require rapidwebltd/php-google-contacts-v3-api
+
+-------------
+
+http://wrapbootstrap.com/preview/WB0R5L90S
+INSPINIA - Responsive Admin Theme
+
+-------------
+
+http://www.com-ext.com/xmedialauncher
+
+
+
+aumpai@mindfiremail.info
+Km2@Wc5!
+
+-------------
+
+google api
+
+
+https://www.design19.org/blog/import-google-contacts-with-php-or-javascript-using-google-contacts-api-and-oauth-2-0/
+
+tt994613@gmail.com
+client_id : 418562770150-rr8hlnht27ibtlpdjs35g5tm1sn7nbek.apps.googleusercontent.com
+project_id : utility-descent-173607
+auth_uri : https://accounts.google.com/o/oauth2/auth
+token_uri : https://accounts.google.com/o/oauth2/token
+auth_provider_x509_cert_url : https://www.googleapis.com/oauth2/v1/certs
+client_secret : qgSIh8QehfoT5VwA8Q862WvO
+redirect_uris : ["http://web2xmm.com/vendor/rapidwebltd/php-google-contacts-v3-api/redirect-handler.php"]
+
+
+http://web2xmm.com/admin/redirect-handler.php
+php /var/www/html/admin/redirect-handler.php
+
+
+boonsom@mindfiremail.info
+api key
+AIzaSyAuUneLFbSxjCAmieChuli58AXvxjQwM8Q
+
+
+
+{"web":{"client_id":"424915663814-eubtlstlcfoqoqj8d9ffaib3oc5jf13l.apps.googleusercontent.com","project_id":"silken-quasar-174304","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://accounts.google.com/o/oauth2/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"j7TRAps2ndjvJouMDqY5WfIJ","redirect_uris":["http://web2xmm.com/vendor/rapidwebltd/php-google-contacts-v3-api"],"javascript_origins":["http://web2xmm.com"]}}
+
+
+http://web2xmm.com/vendor/rapidwebltd/php-google-contacts-v3-api/redirect-handler.php
+
+OAuth client 
+client_id
+424915663814-eubtlstlcfoqoqj8d9ffaib3oc5jf13l.apps.googleusercontent.com 
+project_id
+silken-quasar-174304
+client_secret
+j7TRAps2ndjvJouMDqY5WfIJ 
+
+
+https://www.google.com/m8/feeds/contacts/boonsom@mindfiremail.info/full
+
+https://github.com/rapidwebltd/php-google-contacts-v3-api
+https://console.developers.google.com/apis/dashboard?authuser=1
+
+
+
+
+
+https://support.google.com/code/contact/oauth_app_verification
+
+
+change path of .config.json in /httpdocs/vendor/rapidwebltd/php-google-contacts-v3-api/helpers/GoogleHelper.php
+
+Allow Risky Access Permissions By Unreviewed Apps
+https://groups.google.com/forum/#!forum/risky-access-by-unreviewed-apps
+
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://developers.google.com/oauthplayground&prompt=consent&response_type=code&client_id=407408718192.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/contacts.readonly&access_type=offline
+
+https://web2xmm.com/gistfile1.html
+
+-------------
+
+Office 
+
+atriumTech1@outlook.com
+atm01211
+
+name
+portalOffice
+
+app secret
+bO6nQaTZttTTWNSJrPgKNMg
+
+Application Id
+1dd57f07-aac6-47f7-b3af-04d8fc3a6455
+
+
+https://github.com/microsoftgraph/php-connect-sample
+
+https://msdn.microsoft.com/office/office365/api/contacts-rest-operations
+https://dev.office.com/code-samples-detail/5984
+
+
+
+
+http://web2xmm.com:8000/User.php
+http://web2xmm.com/php-connect-sample-master/app/User.php
+
+php /var/www/html/php-connect-sample-master/app/User.php
+
+-------------
+
+facebook
+
+
+https://developers.facebook.com/docs/marketing-apis
+
+-------------
+
+beefree
+
+
+
+Application keys
+Client id
+ba3179ff-d3dc-43cf-9389-55527a24c50c
+Client Secret
+TQeZUREjYmhQcrAqOHGQIi2gGOj5cMHvVVWEgPGt7E01lCrodaR
+
+
+http://web2xmm.com/beefree-master/BeeFreeTest.php
+
+php /var/www/html/beefree-master/BeeFreeTest.php
+
+
+http://web2xmm.com/ClientSIde-code-sample-master/index.html
+
+-------------
+
+
+
+-------------
+
+
+
+
+composer require rapidwebltd/php-google-contacts-v3-api
+composer require google-api-php-client
+
+This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation.
+
+
+
+
+"Tables_in_studioCRM"
+"accessCondition"
+"activityLog"
+"shire_dms"
+"trackingData"
+"userAccess"
+"users"
+"xmediaAPI"
+"xmediaContact"
+
+
+-------------
+git clone https://coa0329@bitbucket.org/coa0329/bhaang.git
+
+
+
+
+
+github desktop unable to publish. please check if you have an internet
+
+
+-------------
+
+bitbucket
+
+https://bitbucket.org
+
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud?team_source=header&utm_source=special-offer-email&utm_medium=email&utm_campaign=EP-124
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git clone https://github.com/coa0329/Bhaang.git
+
+git pull
+git add --all
+git commit -am "<commit message>"
+git push
+
+
+git push origin master
+
+-------------
+
+1 Set up new server. Create database. Install ssl.
+2 Get contact from google.
+3 Get contact from microsoft.
+4 Setup git
+
+
+entry
+title
+address
+
+
+array(3) { ["version"]=> string(3) "1.0" ["encoding"]=> string(5) "UTF-8" ["feed"]=> array(16) { ["xmlns"]=> string(27) "http://www.w3.org/2005/Atom" ["xmlns$openSearch"]=> string(39) "http://a9.com/-/spec/opensearchrss/1.0/" ["xmlns$gContact"]=> string(38) "http://schemas.google.com/contact/2008" ["xmlns$batch"]=> string(37) "http://schemas.google.com/gdata/batch" ["xmlns$gd"]=> string(32) "http://schemas.google.com/g/2005" ["id"]=> array(1) { ["$t"]=> string(18) "tt994613@gmail.com" } ["updated"]=> array(1) { ["$t"]=> string(24) "2017-07-26T10:30:57.369Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(20) "test test's Contacts" } ["link"]=> array(5) { [0]=> array(3) { ["rel"]=> string(9) "alternate" ["type"]=> string(9) "text/html" ["href"]=> string(23) "https://www.google.com/" } [1]=> array(3) { ["rel"]=> string(37) "http://schemas.google.com/g/2005#feed" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(66) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full" } [2]=> array(3) { ["rel"]=> string(37) "http://schemas.google.com/g/2005#post" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(66) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full" } [3]=> array(3) { ["rel"]=> string(38) "http://schemas.google.com/g/2005#batch" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(72) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/batch" } [4]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(90) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full?max-results=25&alt=json" } } ["author"]=> array(1) { [0]=> array(2) { ["name"]=> array(1) { ["$t"]=> string(9) "test test" } ["email"]=> array(1) { ["$t"]=> string(18) "tt994613@gmail.com" } } } ["generator"]=> array(3) { ["version"]=> string(3) "1.0" ["uri"]=> string(30) "http://www.google.com/m8/feeds" ["$t"]=> string(8) "Contacts" } ["openSearch$totalResults"]=> array(1) { ["$t"]=> string(1) "6" } ["openSearch$startIndex"]=> array(1) { ["$t"]=> string(1) "1" } ["openSearch$itemsPerPage"]=> array(1) { ["$t"]=> string(2) "25" } ["entry"]=> array(6) { [0]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(81) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/749be0809c81edf" } ["updated"]=> array(1) { ["$t"]=> string(24) "2017-07-26T08:17:29.848Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(11) "email test2" } ["link"]=> array(3) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(104) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/749be0809c81edf/1B2M2Y8AsgTpgAmY7PhCfg" } [1]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(82) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/749be0809c81edf" } [2]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(99) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/749be0809c81edf/1501057049848001" } } ["gd$email"]=> array(1) { [0]=> array(2) { ["address"]=> string(20) "emailtest2@gmail.com" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } [1]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(82) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/1373b4ac08e1eae9" } ["updated"]=> array(1) { ["$t"]=> string(24) "2016-05-17T03:41:01.497Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(0) "" } ["link"]=> array(4) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(105) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/1373b4ac08e1eae9/1ieKlXUixddKl8L3Lw4iPw" } [1]=> array(3) { ["rel"]=> string(49) "http://schemas.google.com/contacts/2008/rel#photo" ["type"]=> string(7) "image/*" ["href"]=> string(82) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/1373b4ac08e1eae9" } [2]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(83) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/1373b4ac08e1eae9" } [3]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(100) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/1373b4ac08e1eae9/1463456461497002" } } ["gd$email"]=> array(1) { [0]=> array(3) { ["address"]=> string(23) "boonsom@mindfireinc.com" ["primary"]=> string(4) "true" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } [2]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(82) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/3a72a0858ab3af7e" } ["updated"]=> array(1) { ["$t"]=> string(24) "2017-07-26T10:30:37.937Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(0) "" } ["link"]=> array(3) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(105) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/3a72a0858ab3af7e/1B2M2Y8AsgTpgAmY7PhCfg" } [1]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(83) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/3a72a0858ab3af7e" } [2]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(100) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/3a72a0858ab3af7e/1501065037937001" } } ["gd$email"]=> array(1) { [0]=> array(2) { ["address"]=> string(20) "emailtest4@gmail.com" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } [3]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(82) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/3d3287b788c3d1be" } ["updated"]=> array(1) { ["$t"]=> string(24) "2017-07-26T08:17:58.309Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(11) "email test3" } ["link"]=> array(3) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(105) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/3d3287b788c3d1be/1B2M2Y8AsgTpgAmY7PhCfg" } [1]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(83) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/3d3287b788c3d1be" } [2]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(100) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/3d3287b788c3d1be/1501057078309002" } } ["gd$email"]=> array(1) { [0]=> array(2) { ["address"]=> string(20) "emailtest3@gmail.com" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } [4]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(82) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/65c701d10c3030a1" } ["updated"]=> array(1) { ["$t"]=> string(24) "2014-05-20T20:07:50.762Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(0) "" } ["link"]=> array(3) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(105) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/65c701d10c3030a1/1B2M2Y8AsgTpgAmY7PhCfg" } [1]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(83) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/65c701d10c3030a1" } [2]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(100) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/65c701d10c3030a1/1400616470762000" } } ["gd$email"]=> array(1) { [0]=> array(3) { ["address"]=> string(18) "tt994613@gmail.com" ["primary"]=> string(4) "true" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } [5]=> array(6) { ["id"]=> array(1) { ["$t"]=> string(82) "http://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/base/6e55fff50c93cbe2" } ["updated"]=> array(1) { ["$t"]=> string(24) "2017-07-26T08:17:46.024Z" } ["category"]=> array(1) { [0]=> array(2) { ["scheme"]=> string(37) "http://schemas.google.com/g/2005#kind" ["term"]=> string(46) "http://schemas.google.com/contact/2008#contact" } } ["title"]=> array(2) { ["type"]=> string(4) "text" ["$t"]=> string(11) "email test1" } ["link"]=> array(3) { [0]=> array(3) { ["rel"]=> string(54) "http://schemas.google.com/contacts/2008/rel#edit-photo" ["type"]=> string(7) "image/*" ["href"]=> string(105) "https://www.google.com/m8/feeds/photos/media/tt994613%40gmail.com/6e55fff50c93cbe2/1B2M2Y8AsgTpgAmY7PhCfg" } [1]=> array(3) { ["rel"]=> string(4) "self" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(83) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/6e55fff50c93cbe2" } [2]=> array(3) { ["rel"]=> string(4) "edit" ["type"]=> string(20) "application/atom+xml" ["href"]=> string(100) "https://www.google.com/m8/feeds/contacts/tt994613%40gmail.com/full/6e55fff50c93cbe2/1501057066024001" } } ["gd$email"]=> array(1) { [0]=> array(2) { ["address"]=> string(20) "emailtest1@gmail.com" ["rel"]=> string(38) "http://schemas.google.com/g/2005#other" } } } } } } 
+} 
+" 
+
+
