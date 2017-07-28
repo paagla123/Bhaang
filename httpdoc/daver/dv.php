@@ -26,6 +26,7 @@ function showPage($page) {
         $vars_array['{{'.$k.'}}'] = $v;
         unset($vars_array[$k]);
     }
+    $vars_array['{{email_subject}}'] = file_get_contents("campaign_email_subject.html");
 
     // Get our wrapper html, insert the body into it, and then repace all our vars using vars_array
     $wrapper    = file_get_contents('wrapper.html');
@@ -41,6 +42,8 @@ function doAction($POST) {
     }
     
     if ($POST['action'] == "sendTest") {
+        print_r($POST);
+        file_put_contents('campaign_email_subject.html', $POST['email_subject']);
         exec("lynx -accept_all_cookies -dump http://daverosend.mindfirestudio.net/dv_trigger/send_test.html > /dev/null 2>&1 &");
     }
 }
