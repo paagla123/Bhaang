@@ -40,5 +40,9 @@ function doAction($POST) {
         file_put_contents('credentials.json', json_encode($POST));
     }
     
-    // LEFT OFF HERE.  Need an action for the editCampaign page when Subject Line gets edited, and Send Test is pressed.
+    if ($POST['action'] == "sendTest") {
+        //echo "SEND TEST!";
+        // LEFT OFF HERE.  Need an action for the editCampaign page when Subject Line gets edited, and Send Test is pressed.
+
+    }
 }
