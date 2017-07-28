@@ -41,8 +41,6 @@ function doAction($POST) {
     }
     
     if ($POST['action'] == "sendTest") {
-        //echo "SEND TEST!";
-        // LEFT OFF HERE.  Need an action for the editCampaign page when Subject Line gets edited, and Send Test is pressed.
-
+        exec("lynx -accept_all_cookies -dump http://daverosend.mindfirestudio.net/dv_trigger/send_test.html > /dev/null 2>&1 &");
     }
 }
